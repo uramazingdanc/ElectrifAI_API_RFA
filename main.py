@@ -80,6 +80,5 @@ def predict():
 def index():
     return jsonify({"message": "Flask API is running!"})
 
-# Run the Flask app
 if __name__ == "__main__":
     app.run(debug=True)
